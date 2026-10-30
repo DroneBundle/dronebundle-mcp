@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.dronebundle/mcp",
+  "title": "DroneBundle",
+  "description": "Ask about your drone operation: projects, jobs, flights, pilots, maintenance and safety. Read-only.",
+  "version": "1.0.0",
+  "websiteUrl": "https://dronebundle.com/ai-connectors",
+  "repository": {
+    "url": "https://github.com/DroneBundle/dronebundle-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://dronebundle.com/favicon.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.dronebundle.com/v1/mcp"
+    }
+  ]
+}
